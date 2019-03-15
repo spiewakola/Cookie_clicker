@@ -16,13 +16,19 @@
         background-image: url("../img/cookie.png");
         background-repeat: no-repeat;
         background-position: top center;
-        width:100px;
-        height:100px;
+        width:400px;
+        height:400px;
         background-position:middle;
+        background-size:cover;
+        position:absolute;
+        left: calc(50% - 200px);
+        top:100px;
+        cursor:pointer;
 
       }
       #counter{
-        padding-top:400px;
-        padding-left:615px;
-      
+        position:absolute;
+        top:80%;
+        left:47%;
+        
       }
